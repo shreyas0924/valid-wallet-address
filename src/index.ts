@@ -20,4 +20,4 @@ async function isValidAddress(address: string) {
   }
 }
 
-module.exports = { isValidAddress }
+module.exports =  isValidAddress 

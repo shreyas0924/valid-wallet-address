@@ -1,6 +1,6 @@
 {
   "name": "valid-wallet-address",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Is the wallet address valid or not",
   "main" : "dist/index.js",
   "module" : "dist/index.mjs",
@@ -14,7 +14,6 @@
     "lint": "tsc"
     
   },
-  "author": "",
   "license": "MIT",
   "devDependencies": {
     "tsup": "^7.2.0",
