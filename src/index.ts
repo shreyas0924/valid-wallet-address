@@ -21,6 +21,4 @@ async function isValidAddress(address: string): Promise<void> {
   }
 }
 
-isValidAddress('0x123')
-
-export default isValidAddress
+module.exports = { isValidAddress }
