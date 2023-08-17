@@ -1,10 +1,13 @@
 {
-  "name": "valid-address",
-  "version": "0.0.3",
+  "name": "valid-wallet-address",
+  "version": "0.0.5",
   "description": "Is the wallet address valid or not",
   "main" : "dist/index.js",
   "module" : "dist/index.mjs",
   "types" : "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup src/index.ts --format cjs,esm --dts",
