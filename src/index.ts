@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio'
 
-async function isValidAddress(address: string) {
+export async function isValidAddress(address: string) {
   try {
     const response = await fetch(`https://etherscan.io/address/${address}`)
     const data = await response.text()
@@ -19,5 +19,4 @@ async function isValidAddress(address: string) {
     console.error('Error scraping data:', error)
   }
 }
-
-module.exports =  isValidAddress 
+module.exports = isValidAddress 

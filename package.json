@@ -1,6 +1,6 @@
 {
   "name": "valid-wallet-address",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Is the wallet address valid or not",
   "main" : "dist/index.js",
   "module" : "dist/index.mjs",
