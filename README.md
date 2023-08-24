@@ -28,7 +28,7 @@ import { isValidAddress } from 'valid-wallet-address'
 2. Provide an Ethereum address to the isValidAddress function:
 
 ```javascript
-const address = '0x1212'
+const address = '0xaddress'
 isValidAddress(address)
   .then((valid) => {
     if (valid) {
