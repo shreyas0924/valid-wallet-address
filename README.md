@@ -1,1 +1,1 @@
-Valid ETH Address
+A utility to validate Ethereum wallet addresses for their correctness and existence on the Ethereum network.
